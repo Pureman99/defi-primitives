@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>On-Chain Payment Splitter</title>
+<style>body{background:#f1f5f9;color:#0f172a;font-family:'Inter',system-ui,sans-serif;padding:32px;margin:0}
+.wrap{max-width:880px;margin:auto;display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
+.card{background:#ffffff;border:1px solid #e2e8f0;border-radius:14px;padding:24px;box-shadow:0 4px 16px rgba(15,23,42,0.05)}
+.addr{background:#f8fafc;border:1px dashed #94a3b8;padding:10px 14px;border-radius:8px;font-family:monospace;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.bar{height:10px;background:#e2e8f0;border-radius:6px;overflow:hidden;margin:6px 0 14px}
+.fill{height:100%;background:#059669}
+.row{display:flex;justify-content:space-between;font-size:14px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+button{width:100%;padding:12px;margin-top:12px;border:none;border-radius:8px;background:#059669;color:#fff;font-weight:600;font-size:15px;cursor:pointer}
+button.sec{background:#0f172a}</style></head>
+<body><div class="wrap">
+<div class="card"><h2>💸 Split Contract #04</h2>
+<p style="color:#64748b;font-size:13px">Send ETH payments directly to this split address for automatic proportional accounting:</p>
+<div class="addr"><span>0x9A4e81C0...71B2</span><strong>📋 Copy</strong></div>
+<h4 style="margin-top:20px">📊 Share Breakdown (100%)</h4>
+<div class="row"><span>0x71C...89A (You)</span><strong>50%</strong></div>
+<div class="bar"><div class="fill" style="width:50%"></div></div>
+<div class="row"><span>0x4B2...10F (Treasury)</span><strong>30%</strong></div>
+<div class="bar"><div class="fill" style="width:30%;background:#0284c7"></div></div>
+<div class="row"><span>0x88F...21C (Contributor)</span><strong>20%</strong></div>
+<div class="bar"><div class="fill" style="width:20%;background:#6366f1"></div></div></div>
+<div class="card"><h3>🧾 Accounting & Claim</h3>
+<div class="row"><span>Total Historical Received:</span><strong>3.400 ETH</strong></div>
+<div class="row"><span>Your Total Entitlement (50%):</span><strong>1.700 ETH</strong></div>
+<div class="row"><span>Already Claimed:</span><strong>0.925 ETH</strong></div>
+<div class="row" style="font-size:16px;padding-top:12px"><span>Claimable Now:</span><strong style="color:#059669">0.775 ETH</strong></div>
+<button>⚡ Claim 0.775 ETH (release)</button>
+<button class="sec">➕ Create New Split via Factory</button>
+<h4 style="margin-top:20px">📥 Recent Incoming Payments</h4>
+<div class="row" style="font-size:12px;color:#475569"><span>From 0x3D1...90E</span><span>+1.400 ETH</span></div>
+<div class="row" style="font-size:12px;color:#475569"><span>From 0x5A9...44B</span><span>+2.000 ETH</span></div></div>
+</div></body></html>

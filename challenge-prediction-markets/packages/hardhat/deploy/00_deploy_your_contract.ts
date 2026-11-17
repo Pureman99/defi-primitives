@@ -18,7 +18,7 @@ export default deployScript(
   async env => {
     const { deployer } = env.namedAccounts;
 
-    const question = "Will ETH surpass $4500 before Q3?";
+    const question = "Will decentralized exchanges overtake CEX volume?";
     const initialLiquidity = parseEther("0.001");
     const initialTokenValue = parseEther("0.00001");
     const initialProbability = 50;
